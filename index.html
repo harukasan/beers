@@ -1,63 +1,81 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="beer@harukasan : beer@harukasan">
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Avenir Next", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+        font-size: 14px;
+        line-height: 32px;
+      }
+      ._links {
+        position: fixed;
+        top: 0;
+        left: 20px;
+      }
+      ._links a {
+        display: inline-block;
+        padding: 0 10px;
+        background: #888;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+      }
+      ._title_logo img {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 100px;
+      }
+      ._content {
+        margin: 100px 20px;
+        width: 600px;
+      }
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+      h1, h2, h3, h4, h5, h6 {
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        margin: 10px 0;
+        padding: 0;
+      }
+    </style>
 
     <title>beer@harukasan</title>
   </head>
 
   <body>
+    <nav class="_links">
+      <a href="https://harukasan.doorkeeper.jp/"><b>Attend</b> on Doorkeeper</a>
+      <a href="https://github.com/harukasan/beers"><b>View</b> on GitHub</a>
+    </nav>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/harukasan/beers">View on GitHub</a>
+    <header>
+      <h1 class="_title_logo"><img src="images/title_logo.png"  alt="beer@harukasan" /></h1>
+    </header>
 
-          <h1 id="project_title">beer@harukasan</h1>
-          <h2 id="project_tagline">beer@harukasan</h2>
+    <article class="_content">
+      <h1>beer@harukasan</h1>
+      <p>毎回テーマを決めて、将来のことを考えながらビールを飲みます。誰も来なかったら1人で考えながら飲んでいます。</p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/harukasan/beers/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/harukasan/beers/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+      <h2>開催スキーム</h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>毎回テーマを決めて、将来のことを考えながらビールを飲みます。誰も来なかったら1人で考えながら飲んでいます。</p>
+      <ol>
+        <li>およそ2週間前までに開催日時を決定します。開催日時は自分が勝手に決めます。</li>
+        <li>開催日1週間前に受付を締め切ります。それからお店を探します。</li>
+        <li>飲みます。お金は割り勘です。</li>
+      </ol>
 
-<h2>
-<a id="参加方法とか" class="anchor" href="#%E5%8F%82%E5%8A%A0%E6%96%B9%E6%B3%95%E3%81%A8%E3%81%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>参加方法とか</h2>
-
-<p>基本的にDoorkeeperを使っています。</p>
-
-<ul>
-<li><a href="http://harukasan.doorkeeper.jp/">http://harukasan.doorkeeper.jp/</a></li>
-</ul>
-
-<h2>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
-
-<p>MIT License</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">beer@harukasan maintained by <a href="https://github.com/harukasan">harukasan</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    </article>
   </body>
 </html>
